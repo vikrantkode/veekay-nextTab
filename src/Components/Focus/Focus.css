@@ -1,0 +1,32 @@
+:root{
+    --text-color: white;
+    --text-shadow-color : black;
+}
+.focus_heading, .focus_display{
+    color: var(--text-color);
+}
+.focus_text_input{
+    color: var(--text-color);
+    text-shadow: 1px 1px 1px  var(--text-shadow-color);
+    border: none;
+    background: transparent;
+    text-align: center;
+    outline: 0;
+    border-bottom: 4px solid var(--text-color);
+    width : 32rem; 
+    height: 2rem;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 2px;
+}
+
+.focus_display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.edit_icon{
+    cursor: pointer;
+}

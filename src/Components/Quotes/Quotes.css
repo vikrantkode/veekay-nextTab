@@ -1,0 +1,11 @@
+:root{
+    --text-color: white;
+    --text-shadow-color : black;
+}
+.quotes{
+    color: var(--text-color);
+    font-family: cursive;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+}
