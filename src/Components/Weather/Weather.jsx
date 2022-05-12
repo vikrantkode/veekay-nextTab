@@ -17,13 +17,9 @@ const Weather = () => {
     },[lat,long])
 
     useEffect(()=>{
-      console.log("key hai ", process.env.REACT_APP_WEATHER_API_KEY);
-      const apiUrl = process.env.REACT_APP_WEATHER_API_KEY.toString().slice(0,-1)
       try{
         (async ()=>{
-          const resp = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apiUrl}`)
-          
-          console.log(resp)
+          const resp = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`)
           setWeatherData(resp.data)
         })()
       }catch(err){
