@@ -1,0 +1,39 @@
+:root{
+    --text-color : white;
+    --text-shadow-color: black;
+}
+.welcome_text{
+    color: var(--text-color);
+    text-shadow: 1px 1px 1px  var(--text-shadow-color);
+    font-weight:bolder ;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.welcome_name_text{
+    color: var(--text-color);
+    text-shadow: 1px 1px 1px  var(--text-shadow-color);
+    border: none;
+    background: transparent;
+    text-align: center;
+    outline: 0;
+    border-bottom: 4px solid var(--text-color);
+    width : 25rem; 
+    height: 2rem;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 2px;
+}
+
+.landing_page_btn{
+    margin-top: 2rem;
+    background-color: transparent;
+    background-color: var(--text-color);
+    color: var(--text-shadow-color);
+    font-size: 1rem;
+    border-radius: 1rem ;
+    padding: 8px;
+    cursor: pointer;
+}

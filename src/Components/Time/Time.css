@@ -1,0 +1,17 @@
+:root{
+    --text-color: white;
+    --text-shadow-color : black;
+}
+.current_time_heading{
+    font-size: 10em;
+    color: var(--text-color);
+    text-shadow: 2px 2px 2px var(--text-shadow-color);
+    margin: 0;
+}
+
+.greet_user_container{
+    font-size: 3em;
+    color: var(--text-color);
+    text-shadow: 2px 2px 2px var(--text-shadow-color);
+    margin: 0;
+}
